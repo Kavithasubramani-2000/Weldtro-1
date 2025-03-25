@@ -1,0 +1,484 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+.page1
+{
+	width: 100%;
+	height: auto;
+}
+.firstline
+{
+	width: 100%;
+	height: 20px;
+	background-color: rgb(218, 116, 38);
+}
+.page1-box1
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(0, 52, 113);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 17px;
+	color: white;
+	padding: 0 20px;
+}
+.logopage1
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+.logopage1 span
+{
+	color: rgb(218, 116, 38);
+}
+.icons ul li
+{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+}
+.menubar-icon
+{
+	display: none;
+}
+@media(max-width:990px)
+{
+	.location
+	{
+		display: none;
+	}
+	.call
+	{
+		display: none;
+	}
+	.mail
+	{
+		display: none;
+	}
+	.icons
+	{
+		display: none;
+	}
+	.menubar-icon
+	{
+		display: block;
+		font-size: 25px;
+	}
+}
+.page1-header
+{
+	width: 100%;
+	height: 400px;
+	background-image: url(hero.jpg);
+	background-size: cover;
+}
+.navbar
+{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+@media(max-width:990px)
+{
+	.navbar
+	{
+		display: none;
+	}
+}
+.navbar ul li
+{
+	list-style: none;
+	display: inline;
+	margin-left: 30px;
+	color: white;
+	font-size: 18px;
+}
+.page1-content
+{
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	padding: 15px 30px;
+}
+.page1-arrow
+{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	position: relative;
+}
+.circle1
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 25px;
+	right: 90px;
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 13px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.circle1:hover
+{
+	background-color: rgb(218, 116, 38);
+	color: white;
+}
+.circle2
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 25px;
+	right: 35px;
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 13px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.circle2:hover
+{
+	background-color: rgb(218, 116, 38);
+	color: white;
+}
+.page1-button
+{
+	width: 100%;
+	height: 80px;
+}
+.page1-read
+{
+	font-size: 18px;
+	padding: 8px 25px;
+	border: none;
+	background-color: white;
+	margin-left: 20px;
+}
+.page1-read:hover
+{
+	color: white;
+}
+@media(max-width:767px)
+{
+	.page1-read
+	{
+		margin-left: 20px;
+	}
+}
+.page1-contact
+{
+	font-size: 18px;
+	padding: 8px 25px;
+	background-color: rgb(218, 116, 38);
+	color: white;
+	margin-left: 30px;
+	border: none;
+}
+.page1-contact:hover
+{
+	background-color: white;
+	border: 1px solid rgb(218, 116, 38);
+	color: rgb(218, 116, 38);
+}
+
+.page2
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media(max-width:990px)
+{
+	.page2
+	{
+		display: flex;
+		flex-direction: column;
+	}
+}
+.page2-left
+{
+	width: 48%;
+	height: 450px;
+	padding: 70px 50px;
+}
+@media(max-width:990px)
+{
+	.page2-left
+	{
+		width: 100%;
+		height: 350px;
+	}
+}
+@media(max-width:767px)
+{
+	.page2-left
+	{
+		width: 100%;
+		height: auto;
+	}
+}
+.left-heading
+{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.left-heading span
+{
+	color: rgb(218, 116, 38);
+}
+.left-btn
+{
+	font-size: 18px;
+	padding: 8px 25px;
+	background-color: rgb(218, 116, 38);
+	color: white;
+	border: none;
+	margin-top: 20px;
+}
+.left-btn:hover
+{
+	background-color: white;
+	border: 1px solid rgb(218, 116, 38);
+	color: rgb(218, 116, 38);
+}
+.page2-right
+{
+	width: 48%;
+	height: 450px;	
+}
+.image-right
+{
+	width: 90%;
+	height: 90%;
+	background-image: url(right.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media(max-width:990px)
+{
+	.page2-right
+	{
+		width: 90%;
+		height: 350px;
+	}
+}
+@media(max-width:767px)
+{
+	.page2-right
+	{
+		width: 100%;
+	}
+}
+
+.page3
+{
+	width: 100%;
+	height: auto;
+	background-color: rgb(0, 52, 113);
+}
+.page3-container
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.heading-page3
+{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	padding: 40px 0;
+}
+.headings-nav ul li
+{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	font-size: 18px;
+	color: white;
+}
+.headings-nav ul li:hover
+{
+	background-color: white;
+	color: black;
+}
+@media(max-width:767px)
+{
+	.headings-nav ul li
+	{
+		font-size: 12px;
+	}
+}
+.page3-boxes
+{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.box
+{
+	width: 420px;
+	height: 300px;
+	margin-bottom: 50px;
+}
+@media(max-width:767px)
+{
+	.box
+	{
+		width: 320px;
+		height: 280px;
+		margin-top: 20px;
+	}
+}
+.box1
+{
+	background-image: url(box1.jpg);
+	background-size: cover;
+}
+.box2
+{
+	background-image: url(box2.jpg);
+	background-size: cover;
+}
+.box3
+{
+	background-image: url(box3.jpg);
+	background-size: cover;
+}
+.page4
+{
+	width: 100%;
+	height: auto;
+}
+.page4-boxes
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 50px;
+}
+.headind-page4
+{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+}
+span
+{
+	color: rgb(218, 116, 38);
+}
+.grid
+{
+	width: 400px;
+	height: 270px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 20px;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 50px;
+}
+@media(max-width:991px)
+{
+	.grid
+	{
+		width: 29=0px;
+		height: 260px;
+		margin-top: 20px;
+	}
+}
+@media(max-width:767px)
+{
+	.grid
+	{
+		width: 320px;
+		height: 270px;
+		margin-top: 20px;
+	}
+}
+.grid:hover
+{
+	background-color: rgb(218, 116, 38);
+	color: white;
+}
+.logo
+{
+	height: 80px;
+	width: 80px;
+	margin-bottom: 10px;
+}
+.logo:hover
+{
+	color: white;
+}
+.logo1
+{
+	background-image: url(logo1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo2
+{
+	background-image: url(logo2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo3
+{
+	background-image: url(logo3.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo4
+{
+	background-image: url(logo4.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo5
+{
+	background-image: url(logo5.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo6
+{
+	background-image: url(logo6.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
